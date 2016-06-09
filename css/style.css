@@ -1,0 +1,113 @@
+* {
+    /* Layout Declarations */
+    box-sizing: border-box;
+}
+
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0;
+}
+
+a {
+    /* Typography Declrations */
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFCF33;
+}
+
+a:hover {
+    /* Tyopography Declarations */
+    color: #FFE799;
+}
+
+a:visited {
+    /* Typography Declarations */
+    color: #D1A000;
+}
+
+.side-padding {
+    /* Layout Declarations */
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.masthead {
+    padding: 6em 0;
+    background-image: url('http://i.imgur.com/A3dlNN1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid 1em #FFCF33;
+}
+
+.masthead-intro {
+    /* Layout Declarations */
+    margin-bottom: 0.1em;
+    /* Typography Declarations */
+    color: #FFFFFF;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+
+.masthead-heading {
+    /* Layout Declarations */
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    color: #FFF1C2;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    text-shadow: 0px 3px 0px #FFCF33;
+}
+
+.content-width {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social {
+    padding: 0;
+}
+
+.social > li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.light-font > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.questions > h2 {
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* Layout */
+    margin: 2em 0 1em 0;
+    color: #FFCF33;
+}
+
+section > h1 {
+    margin-top: 2em;
+    font-weight: bold;
+}
+
+.content-footer {
+    margin-top: 5em;
+    padding: 4em 0;
+    /* Red, Green, Blue: #RRGGBB */
+    background-color: #594F49;
+    color: white;
+}
